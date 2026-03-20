@@ -10,6 +10,7 @@ Python 3
 "Either mathematics is too big for the human mind or the human mind is more than a machine."
 -Kurt Godël
 """
+import setup_dependencies  # noqa: F401  — loads .env and adds quartopy to sys.path
 from bot.human import Quarto_bot as Human_bot
 from quartopy import play_games
 from bot.CNN_bot import Quarto_bot

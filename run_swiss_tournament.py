@@ -35,6 +35,7 @@ Date: 28 / 10 / 2025
 """
 
 # ----------------------------- logging config --------------------------
+import setup_dependencies  # noqa: F401  — loads .env and adds quartopy to sys.path
 import logging
 from sys import stdout
 from datetime import datetime

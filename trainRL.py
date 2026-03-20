@@ -1,3 +1,4 @@
+import setup_dependencies  # noqa: F401  — loads .env and adds quartopy to sys.path
 from utils.logger import logger
 
 logger.info("Starting Importing...")
